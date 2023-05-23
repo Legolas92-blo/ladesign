@@ -1,0 +1,96 @@
+.header {
+  background: url("../assets/img/bg.png"), url("../assets/img/main_screen.jpg") 0 0 no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-transform: uppercase;
+}
+.header__nav {
+  padding-top: 1.875rem;
+  padding-bottom: 1.875rem;
+  padding-left: 0.9375rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  padding-right: 3.75rem;
+}
+.header__bottom {
+  max-width: 632px;
+  margin: 0 auto;
+  padding-top: 4.25rem;
+  padding-bottom: 18.0625rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header__title {
+  margin-bottom: -0.625rem;
+  margin-left: 1.3125rem;
+  font-weight: 300;
+  font-size: 140px;
+  line-height: 117%;
+  letter-spacing: 0.08em;
+}
+.header__text {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.12em;
+  text-align: center;
+}
+
+.menu__items {
+  display: flex;
+  gap: 3.125rem;
+  font-size: 0.875rem;
+  line-height: 114%;
+  letter-spacing: 0.15em;
+}
+.phone__item {
+  position: relative;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 116%;
+  letter-spacing: 0.05em;
+}
+.phone__item:before {
+  position: absolute;
+  top: -5px;
+  left: -37px;
+  display: inline-block;
+  content: "";
+  background: url("../assets/icon/phone.svg") no-repeat;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #3d3d3d;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  box-sizing: content-box;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  max-width: 1220px;
+  margin: 0 auto;
+}/*# sourceMappingURL=main.css.map */

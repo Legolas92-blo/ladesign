@@ -1,0 +1,7 @@
+@import './functions';
+
+
+@mixin paddingMain ($top, $bottom) {
+  padding-top: rem($top);
+  padding-bottom: rem($bottom);
+}

@@ -1,0 +1,33 @@
+@import './abstracts/_variables';
+@import './layout/header';
+@import './abstracts/functions';
+@import './abstracts/mixins';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $RobotoC;
+  font-weight: 400;
+  font-size: rem(16px);
+  color: #3d3d3d;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;;
+  color: inherit;
+}
+
+.container {
+  box-sizing: content-box;
+  padding-left: rem(10px);
+  padding-right: rem(10px);
+  max-width: 1220px;
+  margin: 0 auto;
+}
+

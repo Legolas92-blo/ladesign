@@ -1,0 +1,10 @@
+@import './variables';
+
+@function rem($size) {
+  @return $size / $root-font-size * 1rem;
+}
+
+@function lineHeight($size, $lineHeight) {
+  @return floor($lineHeight / $size * 100%);
+}
+
