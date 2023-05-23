@@ -1,0 +1,90 @@
+@import '../abstracts/functions';
+@import '../abstracts/mixins';
+
+.header {
+  background: url("../assets/img/bg.png"), url("../assets/img/main_screen.jpg") 0 0 no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-transform: uppercase;
+  
+
+  &__nav {
+    @include paddingMain(30px, 30px);
+    padding-left: rem(15px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    padding-right: rem(60px);
+  }
+
+  &__bottom {
+      max-width: 632px;
+      margin: 0 auto;
+    @include paddingMain (68px, 289px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    margin-bottom: rem(-10px);
+    margin-left: rem(21px);
+    font-weight: 300;
+    font-size: 140px;
+    line-height: lineHeight(140px, 164px);
+    letter-spacing: 0.08em;
+  }
+
+  &__text {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: lineHeight(20px, 24px);
+    letter-spacing: 0.12em;
+    text-align: center;
+  }
+}
+
+.menu {
+
+
+  &__items {
+    display: flex;
+    gap: rem(50px);
+    font-size: rem(14px);
+    line-height: lineHeight(14, 16);
+    letter-spacing: 0.15em;
+  }
+
+  &__item {
+  }
+
+  &__link {
+  }
+}
+.phone {
+
+  &__item {
+    position: relative;
+    font-weight: 500;
+    font-size: rem(18px);
+    line-height: lineHeight(18px, 21px);
+    letter-spacing: 0.05em;
+  
+    &:before {
+      position: absolute;
+      top: -5px;
+      left: -37px;
+      display: inline-block;
+      content: '';
+      background: url('../assets/icon/phone.svg') no-repeat;
+      vertical-align: middle;
+      width: 30px;
+      height: 30px;
+      background-size: cover;
+    }
+
+  }
+}
