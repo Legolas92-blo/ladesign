@@ -5,3 +5,13 @@
   padding-top: rem($top);
   padding-bottom: rem($bottom);
 }
+
+@mixin titleMain {
+  font-family: $RobotoC;
+  font-weight: 300;
+  font-size: rem(40px);
+  line-height: lineHeight(40, 47);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #3D3D3D;
+}
