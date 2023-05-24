@@ -1,0 +1,1 @@
+import accordion from './js/accordion.js';
